@@ -235,7 +235,6 @@ Cube makecubeV(){
 //持っているブロックが全部はまるか確かめる
 int check_cube(Cube cube, Box box, int x, int y, int z){
   int i;
-  //for(i=0; i<3; i++){
   //途中でハマらなくなったら抜ける
   if(box.block[cube.block[0][0]+x][cube.block[0][1]+y][cube.block[0][2]+z]==0&&
      box.block[cube.block[1][0]+x][cube.block[1][1]+y][cube.block[1][2]+z]==0&&
